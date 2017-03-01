@@ -17,7 +17,6 @@ and Universities. Each creating their own incredible games.
 
 ### Build Requirements
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -45,7 +44,7 @@ $ sbt test
 To add the `Phaser` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "phaser" % "2.6.2"
+libraryDependencies += "io.scalajs.npm" %%% "phaser" % "2.6.2-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
