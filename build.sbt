@@ -6,7 +6,7 @@ import sbt._
 
 import scala.language.postfixOps
 
-val apiVersion = "2.6.2-3"
+val apiVersion = "2.6.2-4"
 val scalaJsIOVersion = "0.3.0.7"
 val scalaJsVersion = "2.12.1"
 
@@ -29,7 +29,7 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
 	    "org.scala-lang" % "scala-reflect" % scalaJsVersion,
 	    "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
-	    "io.scalajs" %%% "pixijs" % scalaJsIOVersion
+	    "io.scalajs" %%% "pixijs" % "4.3.5-3"
   ))
 
 /////////////////////////////////////////////////////////////////////////////////
@@ -47,7 +47,7 @@ lazy val publishingSettings = Seq(
       Some("releases" at nexus + "service/local/staging/deploy/maven2")
   },
   pomExtra :=
-    <url>https://github.com/ldaniels528/scalajs-node-npm</url>
+    <url>https://github.com/scalajs-io/phaser</url>
       <licenses>
         <license>
           <name>MIT License</name>
@@ -55,9 +55,9 @@ lazy val publishingSettings = Seq(
         </license>
       </licenses>
       <scm>
-        <connection>scm:git:github.com/ldaniels528/scalajs-node-npm.git</connection>
-        <developerConnection>scm:git:git@github.com:ldaniels528/scalajs-node-npm.git</developerConnection>
-        <url>github.com/ldaniels528/scalajs-node-npm.git</url>
+        <connection>scm:git:github.com/scalajs-io/phaser.git</connection>
+        <developerConnection>scm:git:git@github.com:scalajs-io/phaser.git</developerConnection>
+        <url>github.com/scalajs-io/phaser.git</url>
       </scm>
       <developers>
         <developer>

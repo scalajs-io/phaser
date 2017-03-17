@@ -698,7 +698,7 @@ class Group[T](var game: Phaser.Game,
     */
   def forEach(callback: js.Function1[T, Any], callbackContext: RawOptions, checkExists: Boolean, args: js.Any*): Unit = js.native
 
-  def forEach(callback: js.Function1[T, Any], callbackContext: RawOptions): Unit = js.native
+  def forEach(callback: js.Function1[T, Any], callbackContext: RawOptions = js.native): Unit = js.native
 
   /**
     * Call a function on each alive child in this group.
