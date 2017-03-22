@@ -7,7 +7,7 @@ import sbt._
 import scala.language.postfixOps
 
 val apiVersion = "2.6.2-4"
-val scalaJsIOVersion = "0.3.0.7"
+val scalaJsIOVersion = "0.3.0.8"
 val scalaJsVersion = "2.12.1"
 
 organization := "io.scalajs"
@@ -29,7 +29,7 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
 	    "org.scala-lang" % "scala-reflect" % scalaJsVersion,
 	    "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
-	    "io.scalajs" %%% "pixijs" % "4.3.5-3"
+	    "io.scalajs" %%% "pixijs" % "4.3.5-4"
   ))
 
 /////////////////////////////////////////////////////////////////////////////////
