@@ -6,13 +6,13 @@ import sbt._
 
 import scala.language.postfixOps
 
-val scalaJsIOVersion = "0.4.0-pre2"
+val scalaJsIOVersion = "0.4.0-pre3"
 val apiVersion = scalaJsIOVersion
 val scalaJsVersion = "2.12.1"
 
 organization := "io.scalajs"
 
-homepage := Some(url("https://github.com/ldaniels528/scalajs-phaser"))
+homepage := Some(url("https://github.com/scalajs-io/phaser"))
 
 lazy val root = (project in file(".")).
   enablePlugins(ScalaJSPlugin).
