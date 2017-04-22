@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * ArraySet is a Set data structure (items must be unique within the set) that also maintains order.
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.ArraySet.html
   */
 @js.native
-@JSName("Phaser.ArraySet")
+@JSGlobal("Phaser.ArraySet")
 class ArraySet[T](var list: js.Array[T] = js.native) extends js.Object {
 
   /**

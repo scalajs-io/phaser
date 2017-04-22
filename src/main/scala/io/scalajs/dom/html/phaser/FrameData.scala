@@ -1,14 +1,14 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * FrameData is a container for [[Frame]] objects, which are the internal representation of animation data in Phaser.
   * @see https://phaser.io/docs/2.6.2/Phaser.FrameData.html
   */
 @js.native
-@JSName("Phaser.FrameData")
+@JSGlobal("Phaser.FrameData")
 class FrameData() extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

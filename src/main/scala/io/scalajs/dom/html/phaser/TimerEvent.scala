@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A TimerEvent is a single event that is processed by a Phaser.Timer.
@@ -22,7 +22,7 @@ import scala.scalajs.js.annotation.JSName
   * @param arguments       Additional arguments to be passed to the callback.
   */
 @js.native
-@JSName("Phaser.TimerEvent")
+@JSGlobal("Phaser.TimerEvent")
 class TimerEvent(val timer: Phaser.Timer,
                  val delay: Double,
                  val tick: Double,

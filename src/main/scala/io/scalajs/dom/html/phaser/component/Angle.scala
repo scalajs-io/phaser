@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser.component
 import scala.scalajs.js
 
 @js.native
-//@JSName("Phaser.Component.Angle")
+//@JSGlobal("Phaser.Component.Angle")
 trait Angle extends js.Object {
 
   /**

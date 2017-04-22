@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Phaser Cursor Keys
@@ -25,5 +25,5 @@ trait CursorKeys extends js.Object {
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.CursorKeys")
+@JSGlobal("Phaser.CursorKeys")
 object CursorKeys extends CursorKeys

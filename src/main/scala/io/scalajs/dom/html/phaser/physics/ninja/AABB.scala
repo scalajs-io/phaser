@@ -2,7 +2,7 @@ package io.scalajs.dom.html.phaser
 package physics.ninja
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Ninja Physics AABB constructor.
@@ -14,7 +14,7 @@ import scala.scalajs.js.annotation.JSName
   * @param height The height of this AABB.
   */
 @js.native
-@JSName("Phaser.Physics.Ninja.AABB")
+@JSGlobal("Phaser.Physics.Ninja.AABB")
 class AABB(var body: Phaser.Physics.Ninja.Body,
            var x: Double,
            var y: Double,

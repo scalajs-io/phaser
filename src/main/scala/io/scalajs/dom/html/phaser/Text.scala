@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.{JsNumber, RawOptions}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSName, ScalaJSDefined}
+import scala.scalajs.js.annotation.{JSGlobal, JSName, ScalaJSDefined}
 import scala.scalajs.js.|
 
 /**
@@ -18,7 +18,7 @@ import scala.scalajs.js.|
   * @param style The style properties to be set on the Text.
   */
 @js.native
-@JSName("Phaser.Text")
+@JSGlobal("Phaser.Text")
 class Text(game: Phaser.Game,
            x: Double,
            y: Double,

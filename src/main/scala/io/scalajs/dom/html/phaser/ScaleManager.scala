@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.JsNumber
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -17,6 +17,6 @@ import scala.scalajs.js.|
   * @see https://phaser.io/docs/2.6.2/Phaser.ScaleManager.html
   */
 @js.native
-@JSName("Phaser.ScaleManager")
+@JSGlobal("Phaser.ScaleManager")
 class ScaleManager(var game: Phaser.Game, val width: JsNumber | String, val height: JsNumber | String)
-    extends js.Object {}
+    extends js.Object

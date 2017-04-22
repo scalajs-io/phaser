@@ -2,7 +2,7 @@ package io.scalajs.dom.html.phaser
 package physics.arcade
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Physics Body is linked to a single Sprite. All physics operations should be performed against the body rather than
@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
   * @see https://phaser.io/docs/2.6.2/Phaser.Physics.Arcade.Body.html
   */
 @js.native
-@JSName("Phaser.Physics.Arcade.Body")
+@JSGlobal("Phaser.Physics.Arcade.Body")
 class Body(val sprite: Phaser.Sprite) extends js.Object {
 
   /**

@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.JsNumber
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -21,7 +21,7 @@ import scala.scalajs.js.|
   * @see https://phaser.io/docs/2.6.2/Phaser.Animation.html
   */
 @js.native
-@JSName("Phaser.Animation")
+@JSGlobal("Phaser.Animation")
 class Animation(var game: Phaser.Game,
                 var parent: Phaser.Sprite,
                 var name: String,
@@ -232,7 +232,7 @@ class Animation(var game: Phaser.Game,
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Animation")
+@JSGlobal("Phaser.Animation")
 object Animation extends js.Object {
 
   /**

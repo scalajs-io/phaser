@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSName, ScalaJSDefined}
+import scala.scalajs.js.annotation.{JSGlobal, JSName, ScalaJSDefined}
 import scala.scalajs.js.|
 
 /**
@@ -20,7 +20,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.TilemapLayer.html
   */
 @js.native
-@JSName("Phaser.TilemapLayer")
+@JSGlobal("Phaser.TilemapLayer")
 class TilemapLayer(game: Phaser.Game,
                    var tilemap: Phaser.Tilemap,
                    var index: Int,

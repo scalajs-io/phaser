@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A Timer is a way to create and manage timer events that wait for a specific duration and then run a callback.
@@ -17,7 +17,7 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Timer")
+@JSGlobal("Phaser.Timer")
 class Timer(var game: Phaser.Game, val autoDestroy: Boolean = js.native) extends js.Object {
 
   /**
@@ -85,7 +85,7 @@ class Timer(var game: Phaser.Game, val autoDestroy: Boolean = js.native) extends
   * Timer Singleton
   */
 @js.native
-@JSName("Phaser.Timer")
+@JSGlobal("Phaser.Timer")
 object Timer extends js.Object {
   val HALF: Int = js.native
   val MINUTE: Int = js.native

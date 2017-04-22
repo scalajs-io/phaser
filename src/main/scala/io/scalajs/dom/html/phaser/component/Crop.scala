@@ -1,8 +1,8 @@
 package io.scalajs.dom.html.phaser.component
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
-//@JSName("Phaser.Component.Crop")
+//@JSGlobal("Phaser.Component.Crop")
 trait Crop extends js.Object

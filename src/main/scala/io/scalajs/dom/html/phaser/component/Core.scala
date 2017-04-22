@@ -4,7 +4,7 @@ package component
 import scala.scalajs.js
 
 @js.native
-//@JSName("Phaser.Component.Core")
+//@JSGlobal("Phaser.Component.Core")
 trait Core extends js.Object {
 
   /**

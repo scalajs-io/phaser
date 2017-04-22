@@ -4,7 +4,7 @@ package physics
 import io.scalajs.RawOptions
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * This is your main access to the P2 Physics World. From here you can create materials, listen for events and add bodies
@@ -13,7 +13,7 @@ import scala.scalajs.js.annotation.JSName
   * @param config Physics configuration object passed in from the game constructor.
   */
 @js.native
-@JSName("Phaser.Physics.P2")
+@JSGlobal("Phaser.Physics.P2")
 class P2(var game: Phaser.Game, val config: RawOptions = js.native) extends js.Object {
 
   /**
@@ -90,7 +90,7 @@ class P2(var game: Phaser.Game, val config: RawOptions = js.native) extends js.O
 }
 
 @js.native
-@JSName("P2")
+@JSGlobal("P2")
 object P2 extends js.Object {
 
   /**

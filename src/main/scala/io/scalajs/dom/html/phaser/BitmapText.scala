@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * BitmapText objects work by taking a texture file and an XML or JSON file that describes the font structure.
@@ -28,7 +28,7 @@ import scala.scalajs.js.annotation.JSName
   * @see https://phaser.io/docs/2.6.2/Phaser.BitmapText.html
   */
 @js.native
-@JSName("Phaser.BitmapText")
+@JSGlobal("Phaser.BitmapText")
 class BitmapText(var game: Phaser.Game,
                  override var x: Double,
                  override var y: Double,

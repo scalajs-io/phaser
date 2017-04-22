@@ -2,7 +2,7 @@ package io.scalajs.dom.html
 package phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.{JSGlobal, JSName}
 
 /**
   * phaser - A fast, free and fun HTML5 Game Framework for Desktop and Mobile web browsers.
@@ -11,7 +11,7 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser")
+@JSGlobal("Phaser")
 object Phaser extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

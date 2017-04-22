@@ -2,7 +2,7 @@ package io.scalajs.dom.html.phaser
 package physics
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -29,7 +29,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.Physics.Ninja.html
   */
 @js.native
-@JSName("Phaser.Physics.Ninja")
+@JSGlobal("Phaser.Physics.Ninja")
 class Ninja(var game: Phaser.Game) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

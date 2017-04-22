@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser.component
 import scala.scalajs.js
 
 @js.native
-//@JSName("Phaser.Component.Smoothed")
+//@JSGlobal("Phaser.Component.Smoothed")
 trait Smoothed extends js.Object {
 
   /**

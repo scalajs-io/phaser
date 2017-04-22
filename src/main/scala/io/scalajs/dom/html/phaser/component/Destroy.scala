@@ -7,7 +7,7 @@ import scala.scalajs.js
   * @see http://phaser.io/docs/2.6.2/Phaser.Component.Destroy.html
   */
 @js.native
-//@JSName("Phaser.Component.Destroy")
+//@JSGlobal("Phaser.Component.Destroy")
 trait Destroy extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

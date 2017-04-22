@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.JsNumber
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -25,7 +25,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.Weapon.html
   */
 @js.native
-@JSName("Phaser.Weapon")
+@JSGlobal("Phaser.Weapon")
 class Weapon(var game: Phaser.Game, val parent: Phaser.PluginManager) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -344,7 +344,7 @@ class Weapon(var game: Phaser.Game, val parent: Phaser.PluginManager) extends js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Weapon")
+@JSGlobal("Phaser.Weapon")
 object Weapon extends js.Object {
 
   /**

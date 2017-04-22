@@ -7,7 +7,7 @@ import scala.scalajs.js
   * @see http://phaser.io/docs/2.6.2/Phaser.Component.Delta.html
   */
 @js.native
-//@JSName("Phaser.Component.Delta")
+//@JSGlobal("Phaser.Component.Delta")
 trait Delta extends js.Object {
 
   /**

@@ -4,7 +4,7 @@ import io.scalajs.RawOptions
 import io.scalajs.dom.html.pixijs.{DisplayObject, PIXI}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -28,7 +28,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.Group.html
   */
 @js.native
-@JSName("Phaser.Group")
+@JSGlobal("Phaser.Group")
 class Group[T](var game: Phaser.Game,
                var parent: DisplayObject,
                var name: String = js.native,
@@ -812,7 +812,7 @@ class Group[T](var game: Phaser.Game,
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Group")
+@JSGlobal("Phaser.Group")
 object Group extends js.Object {
 
   /**

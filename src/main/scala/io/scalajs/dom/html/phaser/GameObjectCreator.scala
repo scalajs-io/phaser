@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.RawOptions
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The GameObjectCreator is a quick way to create common game objects without adding them to the game world.
@@ -12,7 +12,7 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.GameObjectCreator")
+@JSGlobal("Phaser.GameObjectCreator")
 class GameObjectCreator(var game: Phaser.Game) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

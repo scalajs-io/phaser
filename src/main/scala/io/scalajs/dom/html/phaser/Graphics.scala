@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A Graphics object is a way to draw primitives to your game. Primitives include forms of geometry, such as Rectangles,
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Graphics.html
   */
 @js.native
-@JSName("Phaser.Graphics")
+@JSGlobal("Phaser.Graphics")
 class Graphics(var game: Phaser.Game,
                override var x: Double,
                override var y: Double)

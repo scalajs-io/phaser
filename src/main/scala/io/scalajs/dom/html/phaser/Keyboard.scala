@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
 trait Keyboard extends js.Object {
@@ -15,5 +15,5 @@ trait Keyboard extends js.Object {
 }
 
 @js.native
-@JSName("Phaser.Keyboard")
+@JSGlobal("Phaser.Keyboard")
 object Keyboard extends Keyboard

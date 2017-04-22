@@ -3,14 +3,14 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.dom.html.pixijs.DisplayObject
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A reference to the GameObjectFactory which can be used to add new objects to the World.
   * @param game the running [[Game]].
   */
 @js.native
-@JSName("Phaser.GameObjectFactory")
+@JSGlobal("Phaser.GameObjectFactory")
 class GameObjectFactory(var game: Game = js.native) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

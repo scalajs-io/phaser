@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.{JsNumber, RawOptions}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -31,7 +31,7 @@ import scala.scalajs.js.|
   * @param upFrame         The frame / frameName when the button is in the Up state.
   */
 @js.native
-@JSName("Phaser.Button")
+@JSGlobal("Phaser.Button")
 class Button(game: Phaser.Game,
              x: Double,
              y: Double,

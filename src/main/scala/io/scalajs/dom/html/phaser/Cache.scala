@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Phaser has one single cache in which it stores all assets.
@@ -29,11 +29,11 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Cache")
-class Cache(var game: Phaser.Game) extends js.Object {}
+@JSGlobal("Phaser.Cache")
+class Cache(var game: Phaser.Game) extends js.Object
 
 @js.native
-@JSName("Phaser.Cache")
+@JSGlobal("Phaser.Cache")
 object Cache extends js.Object {
   val BINARY: Int     = js.native
   val BITMAPDATA: Int = js.native

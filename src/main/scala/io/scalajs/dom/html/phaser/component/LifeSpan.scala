@@ -6,7 +6,7 @@ import io.scalajs.dom.html.pixijs.DisplayObject
 import scala.scalajs.js
 
 @js.native
-//@JSName("Phaser.Component.LifeSpan")
+//@JSGlobal("Phaser.Component.LifeSpan")
 trait LifeSpan extends js.Object {
 
   /**

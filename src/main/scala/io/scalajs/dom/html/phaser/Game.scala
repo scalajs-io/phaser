@@ -6,7 +6,7 @@ import io.scalajs.dom.html.phaser.utils.Debug
 import io.scalajs.{JsNumber, RawOptions}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -28,7 +28,7 @@ import scala.scalajs.js.|
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Game")
+@JSGlobal("Phaser.Game")
 class Game(val width: JsNumber | String = js.native,
            val height: JsNumber | String = js.native,
            val renderer: Int = js.native,

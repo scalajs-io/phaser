@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Creates a Ellipse object. A curve on a plane surrounding two focal points.
@@ -12,7 +12,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Ellipse.html
   */
 @js.native
-@JSName("Phaser.Ellipse")
+@JSGlobal("Phaser.Ellipse")
 class Ellipse(var x: Double, var y: Double, var width: Double, var height: Double) extends js.Object {
 
   /**
@@ -76,7 +76,7 @@ class Ellipse(var x: Double, var y: Double, var width: Double, var height: Doubl
   * Ellipse Singleton
   */
 @js.native
-@JSName("Phaser.Ellipse")
+@JSGlobal("Phaser.Ellipse")
 object Ellipse extends js.Object {
 
   /**

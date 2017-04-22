@@ -2,7 +2,7 @@ package io.scalajs.dom.html.phaser
 package component
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The PhysicsBody component manages the Game Objects physics body and physics enabling.
@@ -11,7 +11,7 @@ import scala.scalajs.js.annotation.JSName
   * @see https://phaser.io/docs/2.6.2/Phaser.Component.PhysicsBody.html
   */
 @js.native
-//@JSName("Phaser.Component.PhysicsBody")
+//@JSGlobal("Phaser.Component.PhysicsBody")
 trait PhysicsBody extends js.Object {
 
   /**
@@ -50,7 +50,7 @@ trait PhysicsBody extends js.Object {
 }
 
 @js.native
-@JSName("Phaser.Component.PhysicsBody")
+@JSGlobal("Phaser.Component.PhysicsBody")
 object PhysicsBody extends js.Object {
 
   /**

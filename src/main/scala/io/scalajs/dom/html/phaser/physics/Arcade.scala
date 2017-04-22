@@ -4,7 +4,7 @@ package physics
 import io.scalajs.dom.html.pixijs.DisplayObject
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -14,7 +14,7 @@ import scala.scalajs.js.|
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Physics.Arcade")
+@JSGlobal("Phaser.Physics.Arcade")
 class Arcade(var game: Phaser.Game) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -142,7 +142,7 @@ class Arcade(var game: Phaser.Game) extends js.Object {
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Physics.Arcade")
+@JSGlobal("Phaser.Physics.Arcade")
 object Arcade extends js.Object {
 
   /**

@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.JsNumber
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A collection of useful mathematical functions.
@@ -14,7 +14,7 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Math")
+@JSGlobal("Phaser.Math")
 class Math extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -516,5 +516,5 @@ class Math extends js.Object {
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Math")
+@JSGlobal("Phaser.Math")
 object Math extends Math

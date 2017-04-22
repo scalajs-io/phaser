@@ -9,7 +9,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.Component.Bounds.html
   */
 @js.native
-//@JSName("Phaser.Component.Bounds")
+//@JSGlobal("Phaser.Component.Bounds")
 trait Bounds extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

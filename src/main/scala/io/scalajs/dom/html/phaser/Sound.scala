@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Sound class constructor.
@@ -11,6 +11,6 @@ import scala.scalajs.js.annotation.JSName
   * @param loop   Whether or not the sound will loop.
   */
 @js.native
-@JSName("Phaser.Sound")
+@JSGlobal("Phaser.Sound")
 class Sound(var game: Phaser.Game, val key: String, val volume: Int = js.native, val loop: Boolean = js.native)
     extends js.Object

@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.RawOptions
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSName, ScalaJSDefined}
+import scala.scalajs.js.annotation.{JSGlobal, JSName, ScalaJSDefined}
 import scala.scalajs.js.|
 
 /**
@@ -21,7 +21,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.Physics.html
   */
 @js.native
-@JSName("Phaser.Physics")
+@JSGlobal("Phaser.Physics")
 class Physics(var game: Phaser.Game, var config: PhysicsConfig | RawOptions) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -147,7 +147,7 @@ class Physics(var game: Phaser.Game, var config: PhysicsConfig | RawOptions) ext
   * Physics Singleton
   */
 @js.native
-@JSName("Phaser.Physics")
+@JSGlobal("Phaser.Physics")
 object Physics extends js.Object {
 
   val ARCADE: Int = js.native

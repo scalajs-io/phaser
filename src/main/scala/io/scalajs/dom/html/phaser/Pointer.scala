@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.dom.Event
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A Pointer object is used by the Mouse, Touch and MSPoint managers and represents a single finger on the touch screen.
@@ -13,7 +13,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Pointer.html
   */
 @js.native
-@JSName("Phaser.Pointer")
+@JSGlobal("Phaser.Pointer")
 class Pointer(game: Phaser.Game, id: Double, pointerMode: Phaser.PointerMode) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -361,7 +361,7 @@ class Pointer(game: Phaser.Game, id: Double, pointerMode: Phaser.PointerMode) ex
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.Pointer")
+@JSGlobal("Phaser.Pointer")
 object Pointer extends js.Object {
 
   /**

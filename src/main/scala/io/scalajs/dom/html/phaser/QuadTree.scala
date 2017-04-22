@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -20,7 +20,7 @@ import scala.scalajs.js.|
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.QuadTree")
+@JSGlobal("Phaser.QuadTree")
 class QuadTree(var x: Double,
                var y: Double,
                var width: Double,

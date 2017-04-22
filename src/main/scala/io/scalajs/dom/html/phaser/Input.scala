@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Phaser.Input is the Input Manager for all types of Input across Phaser,
@@ -11,7 +11,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Input.html
   */
 @js.native
-@JSName("Phaser.Input")
+@JSGlobal("Phaser.Input")
 class Input(var game: Phaser.Game) extends js.Object {
 
   /**
@@ -59,7 +59,7 @@ class Input(var game: Phaser.Game) extends js.Object {
 }
 
 @js.native
-@JSName("Phaser.Input")
+@JSGlobal("Phaser.Input")
 object Input extends js.Object {
 
   /**

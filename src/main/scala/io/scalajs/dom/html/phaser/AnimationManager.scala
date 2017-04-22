@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.JsNumber
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -13,7 +13,7 @@ import scala.scalajs.js.|
   * @see https://phaser.io/docs/2.6.2/Phaser.AnimationManager.html
   */
 @js.native
-@JSName("Phaser.AnimationManager")
+@JSGlobal("Phaser.AnimationManager")
 class AnimationManager(sprite: Phaser.Sprite) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

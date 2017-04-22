@@ -4,7 +4,7 @@ import io.scalajs.dom.html.HTMLElement
 import io.scalajs.dom.html.canvas.{CanvasRenderingContext2D, HTMLCanvasElement}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -13,14 +13,14 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.Canvas.html
   */
 @js.native
-@JSName("Phaser.Canvas")
+@JSGlobal("Phaser.Canvas")
 class Canvas() extends js.Object
 
 /**
   * Canvas Singleton
   */
 @js.native
-@JSName("Phaser.Canvas")
+@JSGlobal("Phaser.Canvas")
 object Canvas extends js.Object {
 
   /**

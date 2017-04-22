@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Creates a new Phaser.Tilemap object. The map can either be populated with data from a Tiled JSON file or from a CSV file.
@@ -33,7 +33,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Tilemap.html
   */
 @js.native
-@JSName("Phaser.Tilemap")
+@JSGlobal("Phaser.Tilemap")
 class Tilemap(var game: Phaser.Game,
               var key: String = js.native,
               var tileWidth: Double = js.native,
@@ -72,7 +72,7 @@ class Tilemap(var game: Phaser.Game,
   * Tilemap Singleton
   */
 @js.native
-@JSName("Phaser.Tilemap")
+@JSGlobal("Phaser.Tilemap")
 object Tilemap extends js.Object {
 
   /**

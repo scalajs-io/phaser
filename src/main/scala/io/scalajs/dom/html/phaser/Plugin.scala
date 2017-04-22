@@ -1,14 +1,14 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * This is a base Plugin template to use for any Phaser plugin development.
   * @see http://phaser.io/docs/2.6.2/Phaser.Plugin.html
   */
 @js.native
-@JSName("Phaser.Plugin")
+@JSGlobal("Phaser.Plugin")
 class Plugin(var game: Phaser.Game, val parent: Phaser.PluginManager) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Events component is a collection of events fired by the parent Game Object.
@@ -25,7 +25,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Events.html
   */
 @js.native
-@JSName("Phaser.Events")
+@JSGlobal("Phaser.Events")
 class Events(val sprite: Phaser.Sprite) extends js.Object {
 
   /**

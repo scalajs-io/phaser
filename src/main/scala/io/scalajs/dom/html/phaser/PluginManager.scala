@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Plugin Manager is responsible for the loading, running and unloading of Phaser Plugins.
@@ -9,7 +9,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.PluginManager.html
   */
 @js.native
-@JSName("Phaser.PluginManager")
+@JSGlobal("Phaser.PluginManager")
 class PluginManager(var game: Phaser.Game) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

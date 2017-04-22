@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A Frame is a single frame of an animation and is part of a [[FrameData]] collection.
@@ -14,7 +14,7 @@ import scala.scalajs.js.annotation.JSName
   * @see https://phaser.io/docs/2.6.2/Phaser.Frame.html
   */
 @js.native
-@JSName("Phaser.Frame")
+@JSGlobal("Phaser.Frame")
 class Frame(var index: Int, var x: Double, var y: Double, var width: Double, var height: Double, var name: String) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

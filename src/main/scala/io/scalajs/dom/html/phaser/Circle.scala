@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Creates a new Circle object with the center coordinate specified by the x and y parameters and the diameter
@@ -12,7 +12,7 @@ import scala.scalajs.js.annotation.JSName
   * @param diameter The diameter of the circle.
   */
 @js.native
-@JSName("Phaser.Circle")
+@JSGlobal("Phaser.Circle")
 class Circle(var x: Double = 0, var y: Double = 0, var diameter: Double = 0) extends js.Object {
 
   /**

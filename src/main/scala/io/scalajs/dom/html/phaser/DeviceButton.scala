@@ -1,13 +1,13 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Created by ldaniels on 1/30/17.
   */
 @js.native
-@JSName("Phaser.DeviceButton")
+@JSGlobal("Phaser.DeviceButton")
 class DeviceButton extends js.Object {
 
 }

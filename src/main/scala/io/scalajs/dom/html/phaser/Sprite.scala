@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.dom.html.pixijs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -15,7 +15,7 @@ import scala.scalajs.js.|
   * @see http://phaser.io/docs/2.6.2/Phaser.Sprite.html
   */
 @js.native
-@JSName("Phaser.Sprite")
+@JSGlobal("Phaser.Sprite")
 class Sprite(var game: Phaser.Game,
              override var x: Double,
              override var y: Double,

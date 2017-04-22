@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Audio Sprites are a combination of audio files and a JSON configuration. The JSON follows the format of that
@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
   * @param key  the asset key for the sound.
   */
 @js.native
-@JSName("Phaser.AudioSprite")
+@JSGlobal("Phaser.AudioSprite")
 class AudioSprite(var game: Phaser.Game, var key: String) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

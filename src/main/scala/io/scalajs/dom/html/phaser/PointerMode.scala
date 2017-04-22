@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Enumeration categorizing operational modes of pointers.
@@ -13,7 +13,7 @@ import scala.scalajs.js.annotation.JSName
   * Values may be added for future mode categorizations.
   */
 @js.native
-@JSName("Phaser.PointerMode")
+@JSGlobal("Phaser.PointerMode")
 class PointerMode() extends js.Object
 
 /**
@@ -21,7 +21,7 @@ class PointerMode() extends js.Object
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Phaser.PointerMode")
+@JSGlobal("Phaser.PointerMode")
 object PointerMode extends js.Object {
 
   /**

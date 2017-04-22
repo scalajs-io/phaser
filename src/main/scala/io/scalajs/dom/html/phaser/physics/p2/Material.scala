@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.phaser.physics.p2
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A P2 Material.
@@ -9,5 +9,5 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Physics.P2.Material.html
   */
 @js.native
-@JSName("Phaser.Physics.P2.Material")
+@JSGlobal("Phaser.Physics.P2.Material")
 class Material(var name: String) extends js.Object

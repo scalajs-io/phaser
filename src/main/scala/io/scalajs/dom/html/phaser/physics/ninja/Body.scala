@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser.physics.ninja
 import io.scalajs.dom.html.phaser.Phaser
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Physics Body is linked to a single Sprite. All physics operations should be performed
@@ -22,7 +22,7 @@ import scala.scalajs.js.annotation.JSName
   * @see http://phaser.io/docs/2.6.2/Phaser.Physics.Ninja.Body.html
   */
 @js.native
-@JSName("Phaser.Physics.Ninja.Body")
+@JSGlobal("Phaser.Physics.Ninja.Body")
 class Body(var system: Phaser.Physics.Ninja,
            var sprite: Phaser.Sprite,
            var `type`: Int = js.native,

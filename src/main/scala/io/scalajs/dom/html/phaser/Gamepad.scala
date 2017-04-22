@@ -3,7 +3,7 @@ package io.scalajs.dom.html.phaser
 import io.scalajs.RawOptions
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSName, ScalaJSDefined}
+import scala.scalajs.js.annotation.{JSGlobal, JSName, ScalaJSDefined}
 
 /**
   * The Gamepad class handles gamepad input and dispatches gamepad events.
@@ -17,7 +17,7 @@ import scala.scalajs.js.annotation.{JSName, ScalaJSDefined}
   * @see http://phaser.io/docs/2.6.2/Phaser.Gamepad.html
   */
 @js.native
-@JSName("Phaser.Gamepad")
+@JSGlobal("Phaser.Gamepad")
 class Gamepad(var game: Phaser.Game) extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
