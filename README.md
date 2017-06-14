@@ -44,7 +44,7 @@ $ sbt test
 To add the `Phaser` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "phaser" % "0.4.0-pre5"
+libraryDependencies += "io.scalajs.npm" %%% "phaser" % "0.4.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
