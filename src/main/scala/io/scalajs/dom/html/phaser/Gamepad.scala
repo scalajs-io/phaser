@@ -162,7 +162,7 @@ class Gamepad(var game: Phaser.Game) extends js.Object {
   * @param onAxisCallback
   * @param onFloatCallback
   */
-@ScalaJSDefined
+
 class Callbacks(var onConnectCallback: js.UndefOr[js.Function] = js.undefined,
                 var onDisconnectCallback: js.UndefOr[js.Function] = js.undefined,
                 var onDownCallback: js.UndefOr[js.Function] = js.undefined,

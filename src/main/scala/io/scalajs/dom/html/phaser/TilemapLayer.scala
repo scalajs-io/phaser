@@ -52,7 +52,7 @@ class TilemapLayer(game: Phaser.Game,
   * @param collidingTileOverfill When debug rendering (debug is true), this fill is used for tiles that are
   *                              collidable. A value of null disables applying the additional overfill.
   */
-@ScalaJSDefined
+
 class DebugSettings(var missingImageFill: js.UndefOr[String] = js.undefined,
                     var debuggedTileOverfill: js.UndefOr[String] = js.undefined,
                     var forceFullRedraw: js.UndefOr[Boolean] = js.undefined,

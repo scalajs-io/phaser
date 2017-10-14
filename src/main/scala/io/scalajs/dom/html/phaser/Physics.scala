@@ -168,7 +168,7 @@ object Physics extends js.Object {
   * Physics Configuration Options
   * @see https://github.com/photonstorm/phaser/blob/v2.6.2/src/physics/Physics.js
   */
-@ScalaJSDefined
+
 class PhysicsConfig(var arcade: js.UndefOr[Boolean] = js.undefined,
                     var ninja: js.UndefOr[Boolean] = js.undefined,
                     var p2: js.UndefOr[Boolean] = js.undefined,

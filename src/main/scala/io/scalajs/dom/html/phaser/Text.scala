@@ -47,7 +47,7 @@ class Text(game: Phaser.Game,
   * @param tabs            The size (in pixels) of the tabs, for when text includes tab characters.
   *                        0 disables. Can be an array of varying tab sizes, one per tab stop.
   */
-@ScalaJSDefined
+
 class StyleOptions(var font: js.UndefOr[String] = js.undefined,
                    var fontStyle: js.UndefOr[String] = js.undefined,
                    var fontVariant: js.UndefOr[String] = js.undefined,
