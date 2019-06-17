@@ -6,9 +6,9 @@ import sbt._
 
 import scala.language.postfixOps
 
-val scalaJsIOVersion = "0.4.2"
+val scalaJsIOVersion = "0.5.0"
 val apiVersion = scalaJsIOVersion
-val scalaJsVersion = "2.12.3"
+val scalaJsVersion = "2.12.8"
 
 organization := "io.scalajs"
 
@@ -24,6 +24,7 @@ lazy val root = (project in file(".")).
     scalaVersion := scalaJsVersion,
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-language:implicitConversions", "-Xlint"),
     scalacOptions in(Compile, doc) ++= Seq("-no-link-warnings"),
+    scalacOptions += "-P:scalajs:sjsDefinedByDefault",
     autoCompilerPlugins := true,
     scalaJSModuleKind := ModuleKind.CommonJSModule,
     libraryDependencies ++= Seq(
